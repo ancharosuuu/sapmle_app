@@ -1,0 +1,2 @@
+module TidolistHelper
+end
