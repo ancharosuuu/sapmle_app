@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'tidolist/new'
+  get 'todolists/new'
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get 'top' => 'homes#top'
-  post 'todollists' => 'todolists#create'
-
- end
+  post 'todolists' => 'todolists#create'end
